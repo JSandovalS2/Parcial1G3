@@ -10,12 +10,11 @@ body{
 #titulo{
     margin-bottom: 10px;
 }
-
+ 
 /*Colores*/
 .green{
     color: #3366FF !important;
 }
-
 .blue{
     color: blue !important;
 }
@@ -61,36 +60,47 @@ body{
 /*Fin de cabecera*/
 
 /*Botones de Navegacion*/
-.nav-enlace{
-    display: inline-block;
-    background: black;
+#nav {
+    width: 80%;
+    margin-left: 90px;
+    border-radius: 10px;
+    height: 40px;
+    background-color: #333;
     color: white;
-    padding: 10px 30px;
+    font-family: sans-serif, Helvetica, Arial;
+    font-size: 14px;
+    box-shadow: 0px 0px 4px #3366FF;
+}
+
+#nav ul{
+    list-style: none;
     text-decoration: none;
-    border: 1px solid black;
-    border-radius: 5px;
+    margin: 0px auto;
+    width: 750px;
 }
 
-.nav-enlace:hover{
-    background: blue;
+#nav >ul > li{
+    line-height: 40px;
+    float: left;
+    border-right: 1px solid gray;
+    transition: 400ms;
 }
 
-.nav-enlace:active{
-    background: red;
-}
-
-nav{
-    background: black;
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.nav-boton{
-    background: sandybrown;
+#nav > ul >li a{
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
     color: white;
-    padding: 10px 0;
-    display:none;
+    text-decoration: none;
+}
+
+#nav > ul > li > a:first-child{
+    border-left: 1px solid white;
+}
+
+#nav > ul >li:hover{
+    background-color: blue;
+    box-shadow: 0px 0px 10px cyan;
 }
 
 /*Menu desplegable*/
@@ -220,7 +230,7 @@ nav{
 /*Secciones*/
 #sections{
     float:left;
-    width: 50%;
+    width: 60%;
     font-family: sans-serif, Arial, Helvetica;
     margin-right: 10px;
 }
@@ -259,7 +269,7 @@ nav{
 
 #sections .date{
     color: gray;
-    font-size: 14px;
+    font-size: 17px;
     margin-left: 75%
 }
 
@@ -304,6 +314,7 @@ footer{
     text-align: center;
 }
 
+ 
 
 
 #logotipo{
@@ -326,4 +337,14 @@ footer{
     }
 }
 
-   
+#ocultar{
+    display:none;
+}
+
+#relojoculto{
+    display:none;
+}
+
+#sfc2pamly92nhwwpfzsr7fjl18d3tlt4fsl{
+    display:none;
+}
