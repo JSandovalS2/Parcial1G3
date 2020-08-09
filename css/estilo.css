@@ -137,10 +137,7 @@ body{
 #content {
     width: 900px;
     min-width: 1000px;
-    margin: 0px auto;
-
-
-    
+    margin: 0px auto; 
 }
 /*Barra lateral*/
 #aside, #frase{
